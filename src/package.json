@@ -1,0 +1,20 @@
+{
+  "name": "bot-template",
+  "version": "1.0.0",
+  "description": "template repository for bots on telegraf",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index",
+    "start": "node index"
+  },
+  "author": "zeph1rr",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "telegraf": "^4.8.5",
+    "zeph1rr-logger": "^1.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
